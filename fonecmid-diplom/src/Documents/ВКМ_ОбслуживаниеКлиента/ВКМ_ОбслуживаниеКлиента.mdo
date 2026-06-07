@@ -18,11 +18,22 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Обслуживание клиента</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Обслуживаемые клиенты</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВКМ_ОбслуживаниеКлиента.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВКМ_ОбслуживаниеКлиента.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1abb32db-bef9-4418-bfec-1c937de95723">
@@ -78,10 +89,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="07b7f10e-09e2-4e5e-94ea-680f9e1a6177">
-    <name>ДатаПлана</name>
+    <name>ДатаПроведенияРабот</name>
     <synonym>
       <key>ru</key>
-      <value>Дата плана</value>
+      <value>Дата проведения работ</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -109,6 +120,38 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="df9ac958-e591-427b-b0e9-1d7d1d186d9b">
+    <name>ВремяНачалаРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала работ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="20221ad9-7357-446f-b06b-7e90e23fd8ec">
+    <name>ВремяОкончанияРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания работ (план)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="a0ed647a-6bd3-4e50-b2e3-988823f9e3bc">
     <name>СтатусЗаявки</name>
     <synonym>
@@ -124,6 +167,41 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="dd52d25c-8057-4dfe-8002-bcf98eda15e5">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7e4f08b9-bc93-451e-9dcc-335c0d7e9cc1">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b7536384-959f-49d2-8883-d6965b141022">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="15a5f858-f86e-4038-880c-2b212b622a67">
     <producedTypes>
       <objectType typeId="3f2040f8-ee1a-47f4-acdd-d6919941ebda" valueTypeId="98c3da5e-2d7d-461d-9bc9-692763a20a0d"/>
@@ -152,10 +230,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="3fc338bb-dfb3-498d-9927-32f326206de8">
-      <name>ЧасыФактически</name>
+      <name>ФактическиПотраченоЧасов</name>
       <synonym>
         <key>ru</key>
-        <value>Часы фактически</value>
+        <value>Фактически потрачено часов</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -170,10 +248,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="56349bfe-b9fc-4975-a0b8-6ea8f805b9b6">
-      <name>ЧасыКОплате</name>
+      <name>ЧасыКОплатеКлиенту</name>
       <synonym>
         <key>ru</key>
-        <value>Часы к оплате</value>
+        <value>Часы к оплате клиенту</value>
       </synonym>
       <type>
         <types>Number</types>
