@@ -124,7 +124,7 @@
     <name>ВремяНачалаРабот</name>
     <synonym>
       <key>ru</key>
-      <value>Время начала работ</value>
+      <value>Время начала работ (план)</value>
     </synonym>
     <type>
       <types>Date</types>
