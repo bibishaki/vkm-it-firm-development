@@ -171,21 +171,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4348beec-da4a-47c2-8dda-dabcf1b3b224">
-    <name>Ответсвенный</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ответсвенный</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Пользователи</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="7e4f08b9-bc93-451e-9dcc-335c0d7e9cc1">
     <name>ФормаДокумента</name>
     <synonym>

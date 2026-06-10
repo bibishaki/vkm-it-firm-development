@@ -21,7 +21,6 @@
     </orderFragments>
   </commandsOrder>
   <subsystemsOrder>
-    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
     <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_Расчеты</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

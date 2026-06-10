@@ -11,6 +11,6 @@
     <picture>StdPicture.Information</picture>
   </picture>
   <content>Catalog.ДоговорыКонтрагентов</content>
-  <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
   <subsystems>ВКМ_Расчеты</subsystems>
+  <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
 </mdclass:Subsystem>

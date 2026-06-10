@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7000c8a4-6dba-4356-be97-0acf525fe6ea">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e83bd44-3e18-4861-b651-7b2a8ffd964d">
   <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
-    <value>Обслуживание клиентов</value>
+    <value>ВКМ обслуживание клиентов</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.ЗначокЩита</picture>
-  </picture>
-  <content>Catalog.ВКМ_УведомленияТелеграмБота</content>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
-  <content>59395447-7a69-4efd-9135-f94f90adb3e7</content>
-  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Enum.ВидыДоговоровКонтрагентов</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
-  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
-  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
-  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>
