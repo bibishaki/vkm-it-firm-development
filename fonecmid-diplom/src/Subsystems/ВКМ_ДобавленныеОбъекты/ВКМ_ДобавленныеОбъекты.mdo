@@ -12,4 +12,5 @@
   </picture>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
+  <subsystems>ВКМ_Расчеты</subsystems>
 </mdclass:Subsystem>

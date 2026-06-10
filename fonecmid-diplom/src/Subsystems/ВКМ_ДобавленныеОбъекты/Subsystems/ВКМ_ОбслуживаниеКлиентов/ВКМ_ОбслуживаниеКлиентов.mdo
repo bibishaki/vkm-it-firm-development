@@ -12,8 +12,11 @@
   </picture>
   <content>Catalog.ВКМ_УведомленияТелеграмБота</content>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
-  <content>Enum.ВКМ_СтатусыЗаявок</content>
+  <content>59395447-7a69-4efd-9135-f94f90adb3e7</content>
   <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b43cb54-20da-41ca-b1ee-74b33ea4c2fa">
+  <producedTypes>
+    <objectType typeId="e980646b-de0c-40d1-a323-c726eb864983" valueTypeId="73e6a612-2b4f-4c15-9a48-82e2b2733162"/>
+    <managerType typeId="6e54a0f8-29a3-4f5d-a523-fc3790bd45d4" valueTypeId="70ce5f5a-efa2-4793-8375-502d50a5eb39"/>
+  </producedTypes>
+  <name>ВКМ_МассовоеСозданиеАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>МассовоеСозданиеАктов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="bd0204c5-641b-4f92-915d-537c97147f45">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>
