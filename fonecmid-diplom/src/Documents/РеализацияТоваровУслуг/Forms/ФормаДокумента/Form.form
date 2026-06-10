@@ -1420,7 +1420,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.Заполнить</commandName>
+      <commandName>Form.Command.ВКМ_Заполнить</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1466,7 +1466,7 @@
     <savedData>true</savedData>
   </attributes>
   <formCommands>
-    <name>Заполнить</name>
+    <name>ВКМ_Заполнить</name>
     <title>
       <key>ru</key>
       <value>Заполнить</value>
@@ -1479,6 +1479,11 @@
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВКМ_Заполнить</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
