@@ -7,20 +7,125 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CalculationRegister.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CalculationRegister.ВКМ_Удержания.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
       <group>CommandGroup.Справочники</group>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+      <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
+      <commands>Catalog.Организации.StandardCommand.OpenList</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_УведомленияТелеграмБота.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.РегистрыСведений</group>
+      <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.Документы</group>
+      <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_НачисленияЗарплаты.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.РегистрыРасчета</group>
+      <commands>CalculationRegister.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>CalculationRegister.ВКМ_Удержания.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.РегистрыНакопления</group>
+      <commands>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.ПланыВидовРасчета</group>
+      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>CommandGroup.Справочники</group>
+      <commands>Catalog.Организации.StandardCommand.OpenList</commands>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_УведомленияТелеграмБота.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.РегистрыСведений</group>
+      <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.Документы</group>
+      <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_НачисленияЗарплаты.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.РегистрыРасчета</group>
+      <commands>CalculationRegister.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>CalculationRegister.ВКМ_Удержания.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.РегистрыНакопления</group>
+      <commands>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.ПланыВидовРасчета</group>
+      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
-  <subsystemsOrder>
-    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_Расчеты</subsystems>
-  </subsystemsOrder>
 </cmi:CommandInterface>
