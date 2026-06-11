@@ -3,7 +3,7 @@
   <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ обслуживание клиентов</value>
+    <value>Обслуживание клиентов</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -18,4 +18,5 @@
   <content>Catalog.Организации</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Пользователи</content>
+  <content>Role.ВКМ_Специалист</content>
 </mdclass:Subsystem>

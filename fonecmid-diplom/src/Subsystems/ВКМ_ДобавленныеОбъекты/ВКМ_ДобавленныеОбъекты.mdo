@@ -35,4 +35,5 @@
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
   <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>Role.ВКМ_Специалист</content>
 </mdclass:Subsystem>
