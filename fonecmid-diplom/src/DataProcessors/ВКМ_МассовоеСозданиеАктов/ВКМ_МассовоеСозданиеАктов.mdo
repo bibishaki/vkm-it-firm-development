@@ -7,9 +7,10 @@
   <name>ВКМ_МассовоеСозданиеАктов</name>
   <synonym>
     <key>ru</key>
-    <value>МассовоеСозданиеАктов</value>
+    <value>Массовое создание актов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
   <attributes uuid="bd0204c5-641b-4f92-915d-537c97147f45">
     <name>Период</name>
     <synonym>
@@ -22,4 +23,50 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <tabularSections uuid="56ab6519-8f70-4e33-848a-3c9343df826e">
+    <producedTypes>
+      <objectType typeId="b7218f85-1ad4-4249-8db6-7d6953113d6b" valueTypeId="5f90a50e-f256-44ff-9cc5-588788be86f1"/>
+      <rowType typeId="b482405e-3d1f-4b7e-9642-56b4f3fcda55" valueTypeId="eeed605d-d8bf-4a69-8525-d4217faaea9a"/>
+    </producedTypes>
+    <name>СписокДоговоров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список договоров</value>
+    </synonym>
+    <attributes uuid="55316804-35c0-4329-bc17-ac4e3cdfa4a6">
+      <name>Договор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f526cd95-21e8-428d-8aa2-6b24062855c6">
+      <name>ДокументРеализации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ реализации</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0f0c95e8-d5c3-46f4-95f6-bdf921f35a3b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
